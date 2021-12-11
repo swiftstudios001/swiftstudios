@@ -31,6 +31,16 @@
 
             box-shadow: 0px 3px 3px -3px rgba(0, 0, 0, .5);
         }
+
+        a:link {
+            text-decoration: none;
+            color: #225074;
+        }
+
+        .textcolor {
+            color: #225074;
+
+        }
     </style>
 
 </head>
@@ -41,7 +51,7 @@
     <!-- navbar  -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 ps-3 ps-sm-0 fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand "> Swift Studios</a>
+            <a href="#" class="navbar-brand "> <B class="textcolor"> Swift Studios </B> </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
 
@@ -51,23 +61,24 @@
 
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
+
                     <li class="nav-item">
-                        <a href="#Home" class="nav-link">Home</a>
+                        <a href="#Home" class="nav-link"> <span class='textcolor'>Home </span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#instructers" class="nav-link">Courses</a>
+                        <a href="#courses" class="nav-link"> <span class='textcolor'> Courses </span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#questions" class="nav-link">Projects</a>
+                        <a href="#questions" class="nav-link"> <span class='textcolor'>Projects</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#questions" class="nav-link">Certifications</a>
+                        <a href="#questions" class="nav-link"> <span class='textcolor'>Certifications</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#instructers" class="nav-link">Services</a>
+                        <a href="#instructers" class="nav-link"> <span class='textcolor'>Services</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#instructers" class="nav-link">Contacts</a>
+                        <a href="#instructers" class="nav-link"> <span class='textcolor'>Contacts</span></a>
                     </li>
                 </ul>
 
@@ -87,21 +98,27 @@
                 <div class="row align-items-center justify-content-between ">
 
                     <div class="col-md pt-2 pt-sm-4 pt-md-0 text-lg-right">
-                        <h2>
-                            Get a Boost! <br /> In your carrer with Swift Studios
+                        <h2 class="textcolor">
+                            Build your Skills! <br /> Learn from Swift Studios
                         </h2>
                         <p class="lead">
                             Swift Studios is a website where you can learn things like these for free!!!
                         </p>
                         <ul type="bullet">
                             <li>
-                                Web Development
+                                <a href="#courses" class="nav-lik">Web Development</a>
                             </li>
                             <li>
                                 Apps Development
                             </li>
                             <li>
                                 Software Development
+                            </li>
+                            <li>
+                                Network Administration
+                            </li>
+                            <li>
+                                Server Administration
                             </li>
                             <li>
                                 AI & Machine Learning
@@ -126,6 +143,251 @@
         </section>
     </div>
 
+    <!--Courses Page-->
+    <div class="muishadow">
+        <section id="courses" class="p-4">
+
+            <div style="padding-top: 60px;" class="container">
+                <div class="row align-items-center justify-content-between ">
+
+                    <div class="col-md pt-2 pt-sm-4 pt-md-0 text-lg-right">
+                        <h2 class='textcolor'>
+                            Web Development
+                        </h2>
+                        <p class="lead">
+                            Are you new to Web Development? You should start with the Frontend Development, then make
+                            your way to the Backend Development.
+                            If you Don't like coding, you can also use Website Builder to create your own website.
+                        </p>
+                       
+                        <h4 class = 'textcolor pt-3'>
+                            Frontend Development
+                        </h4>
+
+                        <div class="container row ">
+                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6" >
+                                <div class="col p-4">
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/html.png" style="width:80px;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary">Learn HTML</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col p-4">
+
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/css.png" style="width:71px;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary">Learn CSS</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col p-4">
+
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/bootstrap.svg" style="width:100px;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary"> Bootstrap</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col p-4">
+
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/js.png" style="width:70px;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary">Javascript</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col p-4">
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/react.png" style="width:136px;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary">Learn React</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col p-4">
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/mui.png" style="width:80px;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary">Material UI</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h4 class = 'textcolor pt-3'>
+                            Backend Development
+                        </h4>
+
+                        <div class="container row ">
+                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6" >
+                                <div class="col p-4">
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/html.png" style="width:80px;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary">Learn HTML</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col p-4">
+
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/css.png" style="width:71px;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary">Learn CSS</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col p-4">
+
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/bootstrap.svg" style="width:100px;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary"> Bootstrap</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col p-4">
+
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/js.png" style="width:70px;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary">Javascript</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col p-4">
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/react.png" style="width:136px;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary">Learn React</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col p-4">
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/mui.png" style="width:80px;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary">Material UI</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h4>
+                            Backend Development
+                        </h4>
+
+                        <div >
+                                <div class="col-12 col-md-0 col-lg-0">
+
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/html.png" style="width:50%;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary">Learn HTML</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6 col-lg-4">
+
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/html.png" style="width:50%;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary">Learn HTML</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+
+                                    <div class="card text-center align-items-center p-1 pt-3" style="width: 10rem;">
+                                        <img src="img/html.png" style="width:50%;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+
+                                            <a href="#" class="btn btn-primary">Learn HTML</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                               
+                            </div>
+                        </div>
+
+
+
+                        <h4>
+                            Website Builder
+                        </h4>
+                        <p class="lead">
+                            Swift Studios is a website where you can learn things like these for free!!!
+                        </p>
+                        <ul type="bullet">
+                            <li>
+                                Web Development
+                            </li>
+                            <li>
+                                Apps Development
+                            </li>
+                            <li>
+                                Software Development
+                            </li>
+                            <li>
+                                Network Administration
+                            </li>
+                            <li>
+                                Server Administration
+                            </li>
+                            <li>
+                                AI & Machine Learning
+                            </li>
+                            <li>
+                                Big Data & Analytics
+                            </li>
+                            <li>
+                                Microsoft Office Packages
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-dark mt-3">
+                            <i class="bi bi-chevron-right"></i> Get Started
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <!--Learn section-->
 
