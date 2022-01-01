@@ -36,9 +36,9 @@
 
         .buttonhover:hover {
 
-            margin-left: 0px;
+            margin-top: 5px;
             -webkit-transform: scale(1.3);
-            transform: scale(1.3);
+            transform: scale(1.1);
             -webkit-transition: .3s ease-in-out;
             transition: .3s ease-in-out;
 
@@ -57,6 +57,42 @@
         input[type="search"]::-webkit-search-cancel-button {
             -webkit-appearance: none;
         }
+
+        .btnbg {
+            background-color: #f3642b;
+            color: white;
+        }
+
+        .btnbg:hover {
+            color: white;
+            background-color: #e54d26;
+            box-shadow: 0 0 0 0.2rem #e54d26;
+        }
+
+        .btnbg:focus {
+            border-color: #e54d26;
+            box-shadow: 0 0 0 0.2rem #e54d26;
+            background-color: #e54d26;
+            color: white;
+        }
+
+        .btnbgcss {
+            background-color: #32a9dc;
+            color: white;
+        }
+
+        .btnbgcss:hover {
+            color: white;
+            background-color: #1572b6;
+            box-shadow: 0 0 0 0.2rem #1572b6;
+        }
+
+        .btnbgcss:focus {
+            border-color: #1572b6;
+            box-shadow: 0 0 0 0.2rem #1572b6;
+            background-color: #1572b6;
+            color: white;
+        }
     </style>
 
 </head>
@@ -68,7 +104,7 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 ps-3 fixed-top">
         <!-- navbar collapse for lg screen  -->
         <div class="container">
-            <a href="#" class=" textcolor pt-2 ">
+            <a href="../../../../index.html" class=" textcolor pt-2 ">
                 <h3> Swift Studios </h3>
             </a>
 
@@ -102,7 +138,7 @@
 
 
                     <li class="nav-item">
-                        <a href="#Home" class="nav-link"> <span class='textcolor'>Home </span></a>
+                        <a href="../../../../index.html" class="nav-link"> <span class='textcolor'>Home </span></a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -111,7 +147,8 @@
                             <span class='textcolor'>Courses </span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li><a class="dropdown-item" href="navbars/webdev.html"><span class='textcolor'>Web Development </span></a>
+                            <li><a class="dropdown-item" href="../../../../navbars/webdev.html"><span class='textcolor'>Web Development
+                                    </span></a>
                             </li>
                             <li><a class="dropdown-item" href="#"><span class='textcolor'>Apps Development </span></a>
                             </li>
@@ -162,7 +199,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="navbars/contacts.html" class="nav-link"> <span class='textcolor'>Contacts</span></a>
+                        <a href="../../../../navbars/contacts.html" class="nav-link"> <span class='textcolor'>Contacts</span></a>
                     </li>
                 </ul>
 
@@ -173,113 +210,126 @@
 
     </nav>
 
-    <!-- Home page  -->
 
-    <section id="Home" class="">
-        <div style="padding-top:30px">
-            <!-- padding adjustment for sticky navbar  -->
-
-            <div class="container p-4">
-
-                <div class="row row-cols-1 row-cols-lg-2 pt-5">
-                    <!-- 1 col for sm and 2 col for lg  -->
+    <!--contacts page-->
 
 
-                    <!-- image only for sm screen -->
-                    <div class=" col d-block d-sm-none pb-5">
-                        <img src="img/logo.jpg" style="width: 800px;" class="img-fluid">
-                    </div>
+    <section id='contacts' class="muishadow p-3 p-lg-5">
+        <div style="padding-top: 40px;" class="container">
 
-                    <!-- for both sm and lg screen -->
-                    <div class="col">
+            <div class="d-flex">
 
-                        <!-- Heading and Texts -->
-                        <span class="textcolor">
-                            <h3>
-                                Build your skill<br />
-                                <h5>Learn with Swift Studios</h5>
-                            </h3>
-                        </span>
-                        <p class="lead">
-                            Swift Studios is a website where you can learn things like these for free!!!
-                        </p>
-
-                        <!-- getstarted Button
-
-                        <a href="#cakes" class="btn btn-dark mt-1 ">
-                            <i class="bi bi-chevron-right"></i> Get Started!!!
-                        </a>
-                         -->
-
-                         <form class="d-flex btn-group pe-2 pt-4 pb-2 pt-md-4 pt-xl-0 pb-xl-0">
-                            <input class="form-control  me-0" size="30" type="search" placeholder="Want any help?" aria-label="Search">
-                            <button type="button" class="btn btn-secondary ">Search</button>
-    
-                        </form>
-
-                        <!-- social media flex -->
-
-                        <h3 class='pt-5 pt-lg-4 textcolor'>Follow us in Social Medias </h3>
-
-                        <div class="d-flex justify-content-start pt-3">
-                            <div class="pe-3 buttonhover"><a href="#!">
-                                    <img src="img/socialmedias/fb.png" style="width: 50px;">
-                                </a></div>
-                            <div class="px-3 buttonhover"><a href="#!">
-                                    <img src="img/socialmedias/insta.png" style="width: 50px;">
-                                </a></div>
-                            <div class="px-3 buttonhover"><a href="#!">
-                                    <img src="img/socialmedias/tiktok.png" style="width: 50px;">
-                                </a></div>
-                            <div class="px-3 buttonhover"><a href="https://www.youtube.com/channel/UCwgsF7UecBPflWHCp-fJr2A" target = "_blank">
-                                    <img src="img/socialmedias/yt.png" style="width: 50px;">
-                                </a>
-                            </div>
-                        </div>
-
-
-
-                        <!-- App flex -->
-
-                        <h3 class='pt-4 textcolor'>Download our app now!</h3>
-
-                        <div class="d-flex justify-content-start pt-3">
-                            <div class="pe-3 buttonhover"><a href="#!">
-                                    <img src="img/gplay.png" style="width: 140px;">
-                                </a>
-                            </div>
-                            <div class="pe-3 buttonhover"><a href="#!">
-                                    <img src="img/istore.png" style="width: 140px;">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col text text-center">
-
-                        <!-- image only for lg screen -->
-                        <div class="d-none d-lg-block pt-5">
-                            <img src="img/logo.jpg" style="width: 500px;" class="img-fluid">
-                        </div>
+                <div class=" d-flex flex-column w-75">
+                    <button class='btn btnbg active pb-0 text-start'>
+                        <h5> HTML Introduction</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Elements</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Attributes</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Headings</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Paragraphs</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Formatting</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Colors</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Links</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Buttons</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Images</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Favicon</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Tables</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Lists</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Iframes</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Layout</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Blocks</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Forms</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Graphics</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Media</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbg pb-0 text-start'>
+                        <h5> HTML Websites</h5>
+                    </button> <span class="pb-1"></span>
+                    <button class='btn btnbgcss pb-0 text-start'>
+                        <h5> HTML & CSS</h5>
+                    </button> <span class="pb-1"></span>
 
 
-                    </div>
+
+
+                </div>
+
+                <div class="me-auto px-4 ">
+                    <H1> HTML Introduction </H1>
+                    <hr/>
+                    <iframe src="../../wevdev_pages/html/html_introduction/htmlint.html" height="800" width="790" title="Iframe Example"></iframe>
+                </div>
+
+                <div class="d-flex flex-column  justify-content-start align-items-center  ">
+
+                    <a href="#!" class='buttonhover'><img src="../../../../img/logo/html.png " width="70rem;"> </a>
+                    <h6> HTML </h6> <span class="pb-3"></span>
+                    <a href="#!" class='buttonhover'><img src="../../../../img/logo/css.png " width="70rem;"> </a>
+                    <h6> CSS </h6> <span class="pb-3"></span>
+                    <a href="#!" class='buttonhover'><img src="../../../../img/logo/bootstrap.png " width="70rem;"> </a>
+                    <h6> BS </h6> <span class="pb-3"></span>
+                    <a href="#!" class='buttonhover'> <img src="../../../../img/logo/js.png " width="70rem;"> </a>
+                    <h6> JS </h6> <span class="pb-3"></span>
+                    <a href="#!" class='buttonhover'><img src="../../../../img/logo/react.png " width="70rem;"> </a>
+                    <h6> React </h6> <span class="pb-3"></span>
+                    <a href="#!" class='buttonhover'><img src="../../../../img/logo/ajs.png" width="70rem;"> </a>
+                    <h6> Angular </h6> <span class="pb-3"></span>
+                    <a href="#!" class='buttonhover'><img src="../../../../img/logo/vue.png " width="70rem;"> </a>
+                    <h6> Vue JS </h6> <span class="pb-3"></span>
+                    <a href="#!" class='buttonhover'> <img src="../../../../img/logo/mui.png " width="70rem;"> </a>
+                    <h6> MUI </h6> <span class="pb-3"></span>
+
                 </div>
             </div>
+
+
         </div>
-        <div class=""></div>
+        <div class="pb-0"></div>
 
     </section>
 
-
     <div class="muishadow ">
         <!-- Footer -->
-        <footer class="text-center text-xl-center bg-light text-muted fixed-bottom">
+        <footer class="text-center text-xl-center bg-light text-muted ">
             <!-- Copyright -->
             <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
                 © 2021 Copyright:
-                <a class="text-reset fw-bold" href="#!">www.swiftstudios.com</a>
+                <a class="text-reset fw-bold" href="../../../../index.html">www.swiftstudios.com</a>
             </div>
             <!-- Copyright -->
         </footer>

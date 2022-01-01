@@ -57,6 +57,18 @@
         input[type="search"]::-webkit-search-cancel-button {
             -webkit-appearance: none;
         }
+
+        .btn {
+
+            width: 85px;
+        }
+
+        .card {
+
+            border: 0px;
+        }
+
+       
     </style>
 
 </head>
@@ -68,7 +80,7 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 ps-3 fixed-top">
         <!-- navbar collapse for lg screen  -->
         <div class="container">
-            <a href="#" class=" textcolor pt-2 ">
+            <a href="../index.html" class=" textcolor pt-2 ">
                 <h3> Swift Studios </h3>
             </a>
 
@@ -102,7 +114,7 @@
 
 
                     <li class="nav-item">
-                        <a href="#Home" class="nav-link"> <span class='textcolor'>Home </span></a>
+                        <a href="../index.html" class="nav-link"> <span class='textcolor'>Home </span></a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -111,7 +123,7 @@
                             <span class='textcolor'>Courses </span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li><a class="dropdown-item" href="navbars/webdev.html"><span class='textcolor'>Web Development </span></a>
+                            <li><a class="dropdown-item" href="#"><span class='textcolor'>Web Development </span></a>
                             </li>
                             <li><a class="dropdown-item" href="#"><span class='textcolor'>Apps Development </span></a>
                             </li>
@@ -162,7 +174,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="navbars/contacts.html" class="nav-link"> <span class='textcolor'>Contacts</span></a>
+                        <a href="contacts.html" class="nav-link"> <span class='textcolor'>Contacts</span></a>
                     </li>
                 </ul>
 
@@ -173,113 +185,200 @@
 
     </nav>
 
-    <!-- Home page  -->
+    <!-- Page-->
+    <section id="" class=" muishadow p-3 pt-md-5 p-lg-5">
 
-    <section id="Home" class="">
-        <div style="padding-top:30px">
-            <!-- padding adjustment for sticky navbar  -->
+        <div style="padding-top: 50px;" class="container">
 
-            <div class="container p-4">
+            <h2 class='textcolor pt-0 pt-sm-3 pt-md-0 pt-lg-0 pb-2 pb-lg-3'>
+                Web Development
+            </h2>
 
-                <div class="row row-cols-1 row-cols-lg-2 pt-5">
-                    <!-- 1 col for sm and 2 col for lg  -->
+            <h4 class='textcolor pt-0 pt-sm-3 pt-md-0 pt-lg-0 pb-0'>
+                Frontend Development
+            </h4>
 
+            <!--only for lg-->
+            <div class="d-none d-xl-block">
 
-                    <!-- image only for sm screen -->
-                    <div class=" col d-block d-sm-none pb-5">
-                        <img src="img/logo.jpg" style="width: 800px;" class="img-fluid">
-                    </div>
+                <!--first row 4 Cakes Page-->
+                <div class="d-flex justify-content-start align-items-center pt-1">
 
-                    <!-- for both sm and lg screen -->
-                    <div class="col">
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem;">
+                        <img src="../img/logo/html.png" class="card-img-top" alt="...">
 
-                        <!-- Heading and Texts -->
-                        <span class="textcolor">
-                            <h3>
-                                Build your skill<br />
-                                <h5>Learn with Swift Studios</h5>
-                            </h3>
-                        </span>
-                        <p class="lead">
-                            Swift Studios is a website where you can learn things like these for free!!!
-                        </p>
-
-                        <!-- getstarted Button
-
-                        <a href="#cakes" class="btn btn-dark mt-1 ">
-                            <i class="bi bi-chevron-right"></i> Get Started!!!
-                        </a>
-                         -->
-
-                         <form class="d-flex btn-group pe-2 pt-4 pb-2 pt-md-4 pt-xl-0 pb-xl-0">
-                            <input class="form-control  me-0" size="30" type="search" placeholder="Want any help?" aria-label="Search">
-                            <button type="button" class="btn btn-secondary ">Search</button>
-    
-                        </form>
-
-                        <!-- social media flex -->
-
-                        <h3 class='pt-5 pt-lg-4 textcolor'>Follow us in Social Medias </h3>
-
-                        <div class="d-flex justify-content-start pt-3">
-                            <div class="pe-3 buttonhover"><a href="#!">
-                                    <img src="img/socialmedias/fb.png" style="width: 50px;">
-                                </a></div>
-                            <div class="px-3 buttonhover"><a href="#!">
-                                    <img src="img/socialmedias/insta.png" style="width: 50px;">
-                                </a></div>
-                            <div class="px-3 buttonhover"><a href="#!">
-                                    <img src="img/socialmedias/tiktok.png" style="width: 50px;">
-                                </a></div>
-                            <div class="px-3 buttonhover"><a href="https://www.youtube.com/channel/UCwgsF7UecBPflWHCp-fJr2A" target = "_blank">
-                                    <img src="img/socialmedias/yt.png" style="width: 50px;">
-                                </a>
-                            </div>
-                        </div>
-
-
-
-                        <!-- App flex -->
-
-                        <h3 class='pt-4 textcolor'>Download our app now!</h3>
-
-                        <div class="d-flex justify-content-start pt-3">
-                            <div class="pe-3 buttonhover"><a href="#!">
-                                    <img src="img/gplay.png" style="width: 140px;">
-                                </a>
-                            </div>
-                            <div class="pe-3 buttonhover"><a href="#!">
-                                    <img src="img/istore.png" style="width: 140px;">
-                                </a>
-                            </div>
+                        <div class="card-body">
+                            <a href="../pages/courses/wevdev_pages/html/learnhtml.html" class="btn btn-primary">HTML</a>
                         </div>
                     </div>
+                    <div class="pe-5"></div>
 
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem; ">
+                        <img src="../img/logo/css.png" class="card-img-top" alt="...">
 
-                    <div class="col text text-center">
-
-                        <!-- image only for lg screen -->
-                        <div class="d-none d-lg-block pt-5">
-                            <img src="img/logo.jpg" style="width: 500px;" class="img-fluid">
+                        <div class="card-body">
+                            <a href="#!" class="btn btn-primary">CSS</a>
                         </div>
-
-
                     </div>
-                </div>
+                    <div class="pe-5"></div>
+
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem; ">
+                        <img src="../img/logo/bootstrap.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <a href="#!" class="btn btn-primary">BS5</a>
+                        </div>
+                    </div>
+                    <div class="pe-5"></div>
+
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem;">
+                        <img src="../img/logo/js.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <a href="#!" class="btn btn-primary">JS</a>
+                        </div>
+                    </div>
+                    <div class="pe-5"></div>
+
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem; ">
+                        <img src="../img/logo/react.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <a href="#!" class="btn btn-primary">React</a>
+                        </div>
+                    </div>
+                    <div class="pe-5"></div>
+
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem; ">
+                        <img src="../img/logo/ajs.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <a href="#!" class="btn btn-primary">Angular</a>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="pe-5"></div>
+
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem; ">
+                        <img src="../img/logo/vue.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <a href="#!" class="btn btn-primary">Vue JS</a>
+                        </div>
+                    </div>
+                    <div class="pe-5"></div>
+
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem; ">
+                        <img src="../img/logo/mui.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <a href="#!" class="btn btn-primary">MUI</a>
+                        </div>
+                    </div>
+                    <div class="pe-0"></div>
             </div>
-        </div>
-        <div class=""></div>
 
+            <h4 class='textcolor pt-0 pt-sm-3 pt-md-0 pt-lg-3 pb-0'>
+                Backend Development
+            </h4>
+
+            <!--only for lg-->
+            <div class="d-none d-xl-block">
+
+                <!--first row 4 Cakes Page-->
+                <div class="d-flex justify-content-start align-items-center pt-1">
+
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem;">
+                        <img src="../img/logo/sql.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <a href="#!" class="btn btn-primary">SQL</a>
+                        </div>
+                    </div>
+                    <div class="pe-5"></div>
+
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem; ">
+                        <img src="../img/logo/mysql.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <a href="#!" class="btn btn-primary">MySQL</a>
+                        </div>
+                    </div>
+                    <div class="pe-5"></div>
+
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem; ">
+                        <img src="../img/logo/php.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <a href="#!" class="btn btn-primary">PHP</a>
+                        </div>
+                    </div>
+                    <div class="pe-5"></div>
+
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem;">
+                        <img src="../img/logo/asp.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <a href="#!" class="btn btn-primary">ASP</a>
+                        </div>
+                    </div>
+                    <div class="pe-5"></div>
+
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem; ">
+                        <img src="../img/logo/node.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <a href="#!" class="btn btn-primary">Node JS</a>
+                        </div>
+                    </div>
+                    <div class="pe-5"></div>
+
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem; ">
+                    
+
+
+
+
+
+                    </div>
+                    <div class="pe-5"></div>
+
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem; ">
+                        
+
+
+
+
+
+                    </div>
+                    <div class="pe-5"></div>
+
+                    <div class="card text-center align-items-center p-1 pt-1 " style="width: 10rem; ">
+                        
+
+
+
+
+                    </div>
+                    <div class="pe-0"></div>
+            </div>
+
+
+
+
+        </div>
+        <div class="pb-4"></div>
     </section>
 
 
     <div class="muishadow ">
         <!-- Footer -->
-        <footer class="text-center text-xl-center bg-light text-muted fixed-bottom">
+        <footer class="text-center text-xl-center bg-light text-muted ">
             <!-- Copyright -->
             <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
                 © 2021 Copyright:
-                <a class="text-reset fw-bold" href="#!">www.swiftstudios.com</a>
+                <a class="text-reset fw-bold" href="../index.html">www.swiftstudios.com</a>
             </div>
             <!-- Copyright -->
         </footer>

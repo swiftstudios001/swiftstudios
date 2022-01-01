@@ -68,7 +68,7 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 ps-3 fixed-top">
         <!-- navbar collapse for lg screen  -->
         <div class="container">
-            <a href="#" class=" textcolor pt-2 ">
+            <a href="../index.html" class=" textcolor pt-2 ">
                 <h3> Swift Studios </h3>
             </a>
 
@@ -102,7 +102,7 @@
 
 
                     <li class="nav-item">
-                        <a href="#Home" class="nav-link"> <span class='textcolor'>Home </span></a>
+                        <a href="../index.html" class="nav-link"> <span class='textcolor'>Home </span></a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -111,7 +111,7 @@
                             <span class='textcolor'>Courses </span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li><a class="dropdown-item" href="navbars/webdev.html"><span class='textcolor'>Web Development </span></a>
+                            <li><a class="dropdown-item" href="./webdev.html"><span class='textcolor'>Web Development </span></a>
                             </li>
                             <li><a class="dropdown-item" href="#"><span class='textcolor'>Apps Development </span></a>
                             </li>
@@ -162,7 +162,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="navbars/contacts.html" class="nav-link"> <span class='textcolor'>Contacts</span></a>
+                        <a href="#contacts" class="nav-link"> <span class='textcolor'>Contacts</span></a>
                     </li>
                 </ul>
 
@@ -173,105 +173,41 @@
 
     </nav>
 
-    <!-- Home page  -->
 
-    <section id="Home" class="">
-        <div style="padding-top:30px">
-            <!-- padding adjustment for sticky navbar  -->
+    <!--contacts page-->
+    <section id='contacts' class="muishadow p-3 p-lg-5">
+        <div style="padding-top: 60px;" class="container">
+            <h2 class='textcolor pb-3'>
+                Contact Us
+            </h2>
 
-            <div class="container p-4">
+            <form>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Full Name</label>
+                    <input type="username" class="form-control" id="exampleInputusername">
 
-                <div class="row row-cols-1 row-cols-lg-2 pt-5">
-                    <!-- 1 col for sm and 2 col for lg  -->
-
-
-                    <!-- image only for sm screen -->
-                    <div class=" col d-block d-sm-none pb-5">
-                        <img src="img/logo.jpg" style="width: 800px;" class="img-fluid">
-                    </div>
-
-                    <!-- for both sm and lg screen -->
-                    <div class="col">
-
-                        <!-- Heading and Texts -->
-                        <span class="textcolor">
-                            <h3>
-                                Build your skill<br />
-                                <h5>Learn with Swift Studios</h5>
-                            </h3>
-                        </span>
-                        <p class="lead">
-                            Swift Studios is a website where you can learn things like these for free!!!
-                        </p>
-
-                        <!-- getstarted Button
-
-                        <a href="#cakes" class="btn btn-dark mt-1 ">
-                            <i class="bi bi-chevron-right"></i> Get Started!!!
-                        </a>
-                         -->
-
-                         <form class="d-flex btn-group pe-2 pt-4 pb-2 pt-md-4 pt-xl-0 pb-xl-0">
-                            <input class="form-control  me-0" size="30" type="search" placeholder="Want any help?" aria-label="Search">
-                            <button type="button" class="btn btn-secondary ">Search</button>
-    
-                        </form>
-
-                        <!-- social media flex -->
-
-                        <h3 class='pt-5 pt-lg-4 textcolor'>Follow us in Social Medias </h3>
-
-                        <div class="d-flex justify-content-start pt-3">
-                            <div class="pe-3 buttonhover"><a href="#!">
-                                    <img src="img/socialmedias/fb.png" style="width: 50px;">
-                                </a></div>
-                            <div class="px-3 buttonhover"><a href="#!">
-                                    <img src="img/socialmedias/insta.png" style="width: 50px;">
-                                </a></div>
-                            <div class="px-3 buttonhover"><a href="#!">
-                                    <img src="img/socialmedias/tiktok.png" style="width: 50px;">
-                                </a></div>
-                            <div class="px-3 buttonhover"><a href="https://www.youtube.com/channel/UCwgsF7UecBPflWHCp-fJr2A" target = "_blank">
-                                    <img src="img/socialmedias/yt.png" style="width: 50px;">
-                                </a>
-                            </div>
-                        </div>
-
-
-
-                        <!-- App flex -->
-
-                        <h3 class='pt-4 textcolor'>Download our app now!</h3>
-
-                        <div class="d-flex justify-content-start pt-3">
-                            <div class="pe-3 buttonhover"><a href="#!">
-                                    <img src="img/gplay.png" style="width: 140px;">
-                                </a>
-                            </div>
-                            <div class="pe-3 buttonhover"><a href="#!">
-                                    <img src="img/istore.png" style="width: 140px;">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col text text-center">
-
-                        <!-- image only for lg screen -->
-                        <div class="d-none d-lg-block pt-5">
-                            <img src="img/logo.jpg" style="width: 500px;" class="img-fluid">
-                        </div>
-
-
-                    </div>
                 </div>
-            </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleInputmessage" class="form-label">Your Message</label>
+                    <input type="message" class="form-control" id="exampleInputEmail1">
+                    <div id="message" class="form-text">We'll review your message as soon as possible.</div>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
-        <div class=""></div>
+        <div class="pb-0"></div>
 
     </section>
-
 
     <div class="muishadow ">
         <!-- Footer -->
@@ -279,7 +215,7 @@
             <!-- Copyright -->
             <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
                 © 2021 Copyright:
-                <a class="text-reset fw-bold" href="#!">www.swiftstudios.com</a>
+                <a class="text-reset fw-bold" href="../index.html">www.swiftstudios.com</a>
             </div>
             <!-- Copyright -->
         </footer>
